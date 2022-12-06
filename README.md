@@ -1,7 +1,13 @@
 # sustainable-buildings
 
-Include the following:
-  Your project title (5 points)
-  Statement about the data source used in the map, including links to the data    sources if applicable (10 points)
-  Brief description about why and how you created the map (10 points)
-  Markdown formatting, such as including headings, hyperlinks, and lists, to      create a formal project presentation (5 points)
+
+Title: 
+  Energy Consumption by Commercial Buildings Across the U.S.
+  
+Source Information:
+  This map uses data sourced from the U.S. Department of Energy collected from the Commercial Buildings Energy Consumption Survey (CBECS). These data represent the most recent data available on the topic.
+
+Map Description:
+  This map will show the varing levels of energy consumption across the country. The viewer will be able to see how much of what kind (coal, natural gas, etc...) of energy is used by commercial buildings at both state and city levels.
+
+
