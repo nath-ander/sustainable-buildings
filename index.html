@@ -4,7 +4,7 @@
 
 <head>
   <meta charset=utf-8 />
-  <title>Energy Consumption by Commercial Building Across the U.S.</title>
+  <title>LEED Certified Buildings in Lexington, Ky</title>
 
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" />
@@ -16,7 +16,17 @@
       width: 100%;
       height: 0px;
     }
-
+    #legend{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 1000;
+      margin-bottom: 30px;
+      margin-right: 10px;
+      background-color: white;
+      border-radius: 5px;
+      padding: 5px;
+    }
     /* Add HTML element styles */
 
     body {
@@ -59,14 +69,23 @@
 <body>
 
   <header>
-    <h1>Energy Consumption by Commercial Building Across the U.S.<h1>
+    <h1>LEED Certified Building in Lexington, KY<h1>
   </header>
 
   <section>
+      
     <div id='map'></div>
   </section>
-  <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/nathander/clbcgql6a000216o7raym822o/draft.html?title=false&access_token=pk.eyJ1IjoibmF0aGFuZGVyIiwiYSI6ImNsYjBuaTI0ejFsNzAzdm5waWZqZWMzdTMifQ.dSST--0P33ixCoetQAVxyg&zoomwheel=false#5.79/40.44/-74.981/29.6/24" title="energy Consumption" style="border:none;"></iframe>
+  <iframe width='100%' height='500px' src="https://api.mapbox.com/styles/v1/nathander/clbggcwcn002815o1ucb8o7s6.html?title=false&access_token=pk.eyJ1IjoibmF0aGFuZGVyIiwiYSI6ImNsYjBuaTI0ejFsNzAzdm5waWZqZWMzdTMifQ.dSST--0P33ixCoetQAVxyg&zoomwheel=false#10.46/38.043/-84.4641"title="LEED Building Lexington" style="border:none;"></iframe>
+   <div id="legend">
+    <h2>Certification Level</h2>
+    <p>- Platinum</p>
+    <p>- Gold</p>
+    <p>- Silver</p>
+    <p>- Certified</p>
+  </div>
   <br><br>
+ 
   <hr>
   <h2>Source Information:</h2>
   <p>This map was created by Nathan Alexander for the University of Kentucky NewMaps Plus.
